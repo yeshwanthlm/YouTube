@@ -23,7 +23,7 @@ FLUSH PRIVILEGES;
 
 ## Step 6: Test the MySql server if it is working by running sample sql queries
 
-CREATE DATABASE mysql_test;
+CREATE DATABASE mysql_test; \n
 USE mysql_test;
 CREATE TABLE table1 (id INT, name VARCHAR(45));
 INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
