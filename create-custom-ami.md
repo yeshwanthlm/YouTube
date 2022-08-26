@@ -39,6 +39,8 @@ yum update -y
 ### Install Nginx:
 yum install nginx -y
 
+(If you are using Amazon Linuix 2 please use this command: sudo amazon-linux-extras install nginx1)
+
 ### Start Nginx Service:
 sudo service nginx start 
 
