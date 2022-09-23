@@ -3,6 +3,7 @@
 ## Databases on EC2 Instance - Demo
 ### Begin Configuration :
 ```bash
+sudo su -
 yum -y install mariadb-server wget
 systemctl enable mariadb
 systemctl start mariadb
