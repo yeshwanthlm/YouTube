@@ -35,9 +35,8 @@ SELECT * FROM table1;
 ### Migration of Database in EC2 Instance to RDS Database:
 ```bash
 mysqldump -u root -p ec2db > ec2db.sql
-mysql -h <replace-rds-end-point-here> -P 3306 -u rdsuser -p
-CREATE DATABASE rdsdb;
 mysql -h <replace-rds-end-point-here> -P 3306 -u rdsuser -p rdsdb < ec2db.sql
+mysql -h <replace-rds-end-point-here> -P 3306 -u rdsuser -p
 USE rdsdb
 SELECT * FROM table1;
 ```
