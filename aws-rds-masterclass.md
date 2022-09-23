@@ -27,6 +27,7 @@ rm /tmp/db.setup
 ```
 ### Adding some dummy data to the Database inside EC2 Instance:
 ```bash
+mysql -u root --password="${DBRootPassword}"
 USE ec2db;
 CREATE TABLE table1 (id INT, name VARCHAR(45));
 INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
