@@ -1,6 +1,4 @@
 # Run Flask App on AWS EC2 Instance
-http://cpqguide.com/wp-content/uploads/2020/05/Screenshot-2020-05-18-at-23.36.23.png
-
 Install Python Virtualenv
 ```bash
 sudo apt-get update
