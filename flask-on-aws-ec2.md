@@ -45,3 +45,16 @@ Verify if it works by running
 ```bash
 python app.py
 ```
+Run Gunicorn WSGI server to serve the Flask Application
+When you “run” flask, you are actually running Werkzeug’s development WSGI server, which forward requests from a web server.
+Since Werkzeug is only for development, we have to use Gunicorn, which is a production-ready WSGI server, to serve our application.
+
+Install Gunicorn using the below command:
+```bash
+pip install gunicorn
+```
+Run Gunicorn:
+```bash
+gunicorn -b 0.0.0.0:8000 app:app 
+```
+Gunicorn is running (Ctrl + C to exit gunicorn)!
