@@ -96,3 +96,35 @@ Check if the app is running with
 ```bash
 curl localhost:8000
 ```
+Run Nginx Webserver to accept and route request to Gunicorn
+Finally, we set up Nginx as a reverse-proxy to accept the requests from the user and route it to gunicorn.
+
+Install Nginx 
+```bash
+sudo apt-get nginx
+```
+Start the Nginx service and go to the Public IP address of your EC2 on the browser to see the default nginx landing page
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+Edit the default file in the sites-available folder.
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+Add the following code at the top of the file (below the default comments)
+```bash
+upstream flaskhelloworld {
+    server 127.0.0.1:8000;
+}
+```
+Add a proxy_pass to flaskhelloworld atlocation /
+```bash
+location / {
+    proxy_pass http://flaskhelloworld;
+}
+Restart Nginx 
+```bash
+sudo systemctl restart nginx
+```
+Tada! Our application is up!
