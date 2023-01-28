@@ -1,3 +1,14 @@
+Skills:
+
+1. 🐧 Linux/Bash Scripting
+2. 📞 Networking
+3. 👩🏽‍💻 Python
+4. ☁️ AWS/Azure/GCP
+5. 👷🏽‍♀ IaC - Terraform
+6. 🐳 Docker
+7. ⚒️ CI/CD Tools
+
+
 Becoming a cloud engineer typically involves the following steps:
 
 1. Gain a solid understanding of cloud computing concepts and terminology by taking online courses, reading tutorials and articles, and participating in online communities such as GitHub and Stack Overflow.
