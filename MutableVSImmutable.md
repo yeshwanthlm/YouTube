@@ -1,3 +1,6 @@
+
+![Copy of Copy of Copy of Copy of Azure](https://user-images.githubusercontent.com/66474973/215510284-46199aaf-f049-4e33-850a-ceb41fa0bb20.png)
+
 Mutable and Immutable Infrastructure are two opposing approaches to managing infrastructure in a software development and deployment process.
 
 Mutable Infrastructure:
