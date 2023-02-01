@@ -1,0 +1,5 @@
+While coding skills are not a strict requirement for an AWS Solutions Architect, having a basic understanding of coding and scripting can be beneficial. AWS Solutions Architects need to understand how to automate and manage cloud infrastructure, and knowledge of scripting languages such as Python, JavaScript, or shell scripting can be useful in this regard.
+
+Additionally, understanding how applications work and the role that the underlying infrastructure plays in supporting those applications is critical to designing effective cloud solutions. This can involve reviewing code, so a basic understanding of coding concepts can be helpful.
+
+However, it is not necessary to be an expert programmer to become an AWS Solutions Architect. The role primarily involves understanding AWS services and how to design and deploy scalable, secure, and highly available cloud solutions. Strong communication and collaboration skills, knowledge of cloud computing, and the ability to think critically and solve problems are also important skills for an AWS Solutions Architect.
