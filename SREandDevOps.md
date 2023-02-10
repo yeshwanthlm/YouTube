@@ -1,3 +1,5 @@
+![SRE and DevOps](https://user-images.githubusercontent.com/66474973/218048731-227288ed-3051-4ef9-8646-6ae67f7f9218.png)
+
 SRE (Site Reliability Engineering) and DevOps are related but distinct fields in software engineering.
 
 SRE is a discipline within software engineering that focuses on reliability and improving the systems, processes, and tools used to operate and manage software systems. The goal of SRE is to create and maintain systems that are highly available, scalable, and self-healing. SRE teams are responsible for designing, building, and operating large-scale, complex systems that meet the needs of users.
