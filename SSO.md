@@ -13,3 +13,11 @@ Here's how SSO works:
 This makes it easier for users to access the applications they need and eliminates the frustration and security risks associated with managing multiple usernames and passwords. SSO also improves security by reducing the number of opportunities for unauthorized access, as users are required to authenticate only once.
 
 
+![sso](https://user-images.githubusercontent.com/66474973/218306411-06b87cc5-a7f4-4506-864e-85571f473ef3.png)
+
+
+* In this diagram, the user attempts to access Application 1 and is redirected to the SSO login page. 
+* The user enters their login credentials, which are verified by the identity provider (IdP). 
+* If the credentials are valid, the IdP generates a security token and passes it back to the application, which then grants the user access.
+* For subsequent access to Application 2, the user does not need to re-enter their credentials as the SSO system recognizes the security token generated earlier. 
+* The security token is passed directly to the second application, which grants the user access without requiring additional authentication.
