@@ -100,7 +100,7 @@ Finally, we set up Nginx as a reverse-proxy to accept the requests from the user
 
 Install Nginx 
 ```bash
-sudo apt-get nginx
+sudo apt-get install nginx
 ```
 Start the Nginx service and go to the Public IP address of your EC2 on the browser to see the default nginx landing page
 ```bash
