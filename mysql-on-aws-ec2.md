@@ -57,3 +57,17 @@ SELECT customer.first_name AS 'first_name', customer.last_name AS 'last_name', d
 OR
 
 c.first_name AS 'first_name', c.last_name AS 'last_name', d.spouse AS 'Spouse Status', d.children AS 'children' FROM customer c JOIN dependents d ON c.dependents_id = d.id ORDER BY first_name;
+
+
+## Connect server to local DBMS GUI
+
+Go to securiy settings in the EC2 Instance Console and add HTTP connection for MySQL/Aurora (post:3306)
+
+### Connect server to TablePlus
+
+
+
+### Connect server to MySQL Workbench
+
+
+
