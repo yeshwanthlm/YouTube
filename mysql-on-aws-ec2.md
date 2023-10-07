@@ -25,7 +25,7 @@ FLUSH PRIVILEGES;
 
 ## Step 6: Test the MySql server if it is working by running sample sql queries
 
-- Run sample queries manually
+### Run sample queries manually
 
 CREATE DATABASE mysql_test;
 
@@ -38,7 +38,7 @@ INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
 SELECT * FROM table1;
 
 
-- Create database from .Sql file by cloning repository
+### Create database from .Sql file by cloning repository
 
 From Step 4 or use 'quit;' to quit sql query
 
