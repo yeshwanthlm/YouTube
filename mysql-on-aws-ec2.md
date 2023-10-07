@@ -18,7 +18,8 @@ sudo mysql
 
 ## Step 5: Update the password for the MySql Server
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'place-your-password-here';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'place-your-password-here';  -> This works for MySQL
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'place-your-password-here';  ->  This works for MariaDB
 
 FLUSH PRIVILEGES;
 
